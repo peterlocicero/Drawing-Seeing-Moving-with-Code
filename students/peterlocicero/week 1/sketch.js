@@ -3,15 +3,13 @@
 // http://www.learningprocessing.com
 
 // Example 1-1: stroke and fill
-
+var uno = 0, dos = 0, thres = 0;
 function setup() {
-  createCanvas(480, 270);
-  stroke(0);
-  fill(0,0,255);
+  createCanvas(1000, 600);
 }
 
 function draw() {
-  background(0,0,255);
-  rect(mouseX,mouseY,75,100);
-  println("hi");
+  background(255);
+  fill(0);
+  rect(100,100,100,100);
 }
